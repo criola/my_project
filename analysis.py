@@ -7,4 +7,4 @@ This is a temporary script file.
 
 import pandas as pd
 
-dat = pd.read_csv('data/gapminder_gdp_oceania.csv', indez_col = 'country')
+oceania = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col = 'country')
